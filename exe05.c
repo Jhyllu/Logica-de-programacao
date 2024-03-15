@@ -20,7 +20,7 @@ int main()
     printf("Informe a terceira nota: ");
     scanf("%f", &c);
     
-    result = (a*2 + b*3 + c*5) / 3;
+    result = (a*2) + (b*3) + (c*5) / 10;
     printf("A média é %.2f", result);
     
 }
