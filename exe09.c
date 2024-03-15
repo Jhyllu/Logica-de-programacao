@@ -7,10 +7,10 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
+#define PORCENT 0.10
 
 int main()
 {
-    const float porcent = 0.10;
     float valorGasto, gorjeta;
     printf("Informe o valor gasto: ");
     scanf("%f", &valorGasto);
