@@ -7,11 +7,10 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
-
+#define SAL_MIN 1412.00;
 
 int main()
 {
-    const float SAL_MIN = 1412.00;
     float sal, result;
     printf("Informe o valor do seu salário: ");
     scanf("%f", &sal);
