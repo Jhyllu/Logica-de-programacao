@@ -8,10 +8,9 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 #include <stdio.h>
 
-
+#define DOLAR 4.98;
 int main()
 {
-    const float DOLAR = 4.98;
     float qtdReais, qtdDolar;
     printf("Informe a quantidade de Reais: ");
     scanf("%f", &qtdReais);
