@@ -8,6 +8,9 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 #include <stdio.h>
 
+#define PESOA 2
+#define PESOB 3
+#define PESOC 5
 
 int main()
 {
@@ -20,7 +23,7 @@ int main()
     printf("Informe a terceira nota: ");
     scanf("%f", &c);
     
-    result = (a*2) + (b*3) + (c*5) / 10;
+    result = (a*PESOA) + (b*PESOB) + (c*PESOC) / (PESOA + PESOB + PESOC);
     printf("A média é %.2f", result);
     
 }
