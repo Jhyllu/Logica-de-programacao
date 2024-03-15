@@ -7,11 +7,11 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
+#define VALORCARRO 20.00
+#define VALORKM 0.15
 
 int main()
 {
-    const float VALORCARRO = 20.00;
-    const float VALORKM = 0.15;
     float km, resultado;
     int dias;
     
