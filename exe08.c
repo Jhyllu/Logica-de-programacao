@@ -7,10 +7,10 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
+#define COMISSAO 0.15
 
 int main()
 {
-    const float COMISSAO = 0.15;
     char nome;
     float sal, vendas, resultado;
     
